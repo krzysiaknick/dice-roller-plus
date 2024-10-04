@@ -18,11 +18,11 @@ body {
 .container {
     text-align: center;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 550px;
 }
 
 header h1 {
@@ -33,12 +33,16 @@ header h1 {
 }
 
 .dice-container {
+    margin: 20px auto; /* This will center the dice container horizontally */
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center the dice inside the container */
     align-items: center;
-    margin: 20px 0;
-    height: 150px; /* Add height to ensure it works for centering */
+    height: 150px;
+    max-width: 500px; /* Optional, limits the width of the container */
 }
+
+
+
 
 .dice-display {
     background-color: #e0e0e0;
@@ -49,6 +53,7 @@ header h1 {
     align-items: center;
     justify-content: center;
     height: 100px;
+    
 }
 
 
@@ -90,7 +95,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 5px; 
+    
 }
+
 
 
 
@@ -98,7 +106,8 @@ footer {
     display: flex;
     justify-content: center;  
     align-items: center;      
-    height: 11vh;            
+    height: 11vh;       
+         
 }
 
 
@@ -129,3 +138,11 @@ These CSS Dice icons have been generated using Chat GPT
 .seven { top: 40%; left: 10%; }       /* Middle-left */
 
 
+
+.enviromentTag{
+    color: #45a049;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: x-large;
+}   

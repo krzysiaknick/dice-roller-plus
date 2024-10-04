@@ -9,15 +9,19 @@
 <body onload="rollDice()">
     <div class="container">
         <header>
-            <h1>Dice Roller</h1>
+            <h1>Yahtzee Roller</h1>
         </header>
-
+        <div id="testTag" class="enviromentTag">
+            Static Test Environment
+            
+        </div>
         <main>
+            
             <p>Press the "Roll Dice" button below!</p>
             <div class="dice-container">
                 
-
-                <div class="dice" id="dice" >
+                
+                <div class="dice" id="dice1">
                     <!-- Dot positions -->
                     <div class="dot one"></div>
                     <div class="dot two"></div>
@@ -27,11 +31,44 @@
                     <div class="dot six"></div>
                     <div class="dot seven"></div>
                 </div>
-
-            
+                
+                <div class="dice" id="dice2">
+                    <!-- Dot positions -->
+                    <div class="dot one"></div>
+                    <div class="dot two"></div>
+                    <div class="dot three"></div>
+                    <div class="dot four"></div>
+                    <div class="dot five"></div>
+                    <div class="dot six"></div>
+                    <div class="dot seven"></div>
+                </div>
+                
+                <div class="dice" id="dice3">
+                    <!-- Dot positions -->
+                    <div class="dot one"></div>
+                    <div class="dot two"></div>
+                    <div class="dot three"></div>
+                    <div class="dot four"></div>
+                    <div class="dot five"></div>
+                    <div class="dot six"></div>
+                    <div class="dot seven"></div>
+                </div>
+                
+                <div class="dice" id="dice4">
+                    <!-- Dot positions -->
+                    <div class="dot one"></div>
+                    <div class="dot two"></div>
+                    <div class="dot three"></div>
+                    <div class="dot four"></div>
+                    <div class="dot five"></div>
+                    <div class="dot six"></div>
+                    <div class="dot seven"></div>
+                </div>
+                
                 
             </div>
-            <button onclick="rollDice()" class="roll-button" id="rollButton" autofocus>Roll Dice</button>
+            <button onclick="rollAllDice()" class="roll-button" id="rollButton" autofocus>Roll All Dice</button>
+
         </main>
 
         <footer>
